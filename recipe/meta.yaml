@@ -1,5 +1,5 @@
 {% set name = "polygonation" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/polygonation-{{ version }}.tar.gz
-  sha256: 2ca38c7ffce83e875c11fb76a21f3bd6bb27d0394be91c699ae54347fca9c073
+  sha256: 70bc824d091a8eaa57a6c83b67b5bfeaf5ee65ff55f64b9d963c0b8b4516c896
 
 build:
   number: 0
